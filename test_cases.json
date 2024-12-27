@@ -10,7 +10,7 @@
         { "shortDescription": "Knorr Creamy Chicken", "price": "1.26" },
         { "shortDescription": "Doritos Nacho Cheese", "price": "3.35" },
         {
-          "shortDescription": "Klarbrunn 12-PK 12 FL OZ",
+          "shortDescription": "   Klarbrunn 12-PK 12 FL OZ  ",
           "price": "12.00"
         }
       ],
@@ -32,5 +32,92 @@
       "total": "9.00"
     },
     "expectedPoints": 109
+  },
+  {
+    "receipt": {
+      "retailer": "7-Eleven",
+      "purchaseDate": "2022-05-15",
+      "purchaseTime": "15:45",
+      "items": [
+        { "shortDescription": "Slurpee", "price": "2.00" },
+        { "shortDescription": "Big Gulp", "price": "1.50" },
+        { "shortDescription": "Chips", "price": "1.50" }
+      ],
+      "total": "5.00"
+    },
+    "expectedPoints": 103
+  },
+  {
+    "receipt": {
+      "retailer": "Walgreens",
+      "purchaseDate": "2022-02-14",
+      "purchaseTime": "10:30",
+      "items": [
+        { "shortDescription": "Chocolate Bar", "price": "2.50" },
+        { "shortDescription": "Valentine's Card", "price": "4.00" },
+        { "shortDescription": "Teddy Bear", "price": "8.50" }
+      ],
+      "total": "15.00"
+    },
+    "expectedPoints": 89
+  },
+  {
+    "receipt": {
+      "retailer": "Costco Wholesale",
+      "purchaseDate": "2022-07-04",
+      "purchaseTime": "13:59",
+      "items": [
+        { "shortDescription": "Rotisserie Chicken", "price": "4.99" },
+        { "shortDescription": "Kirkland Water 40pk", "price": "3.99" },
+        { "shortDescription": "Toilet Paper 30 Rolls", "price": "16.99" },
+        { "shortDescription": "Bananas", "price": "1.39" },
+        { "shortDescription": "Pizza", "price": "9.99" }
+      ],
+      "total": "37.35"
+    },
+    "expectedPoints": 30
+  },
+  {
+    "receipt": {
+      "retailer": "Whole Foods",
+      "purchaseDate": "2022-09-30",
+      "purchaseTime": "19:45",
+      "items": [
+        { "shortDescription": "Organic Apples", "price": "3.99" },
+        { "shortDescription": "Almond Milk", "price": "3.50" },
+        { "shortDescription": "Avocado Toast", "price": "7.50" },
+        { "shortDescription": "Quinoa Salad", "price": "6.00" }
+      ],
+      "total": "20.99"
+    },
+    "expectedPoints": 22
+  },
+  {
+    "receipt": {
+      "retailer": "Best Buy",
+      "purchaseDate": "2022-11-25",
+      "purchaseTime": "08:15",
+      "items": [
+        { "shortDescription": "4K TV 55 inch", "price": "499.99" },
+        { "shortDescription": "HDMI Cable", "price": "19.99" },
+        { "shortDescription": "Soundbar", "price": "149.99" }
+      ],
+      "total": "669.97"
+    },
+    "expectedPoints": 18
+  },
+  {
+    "receipt": {
+      "retailer": "AMC Theatres",
+      "purchaseDate": "2022-12-31",
+      "purchaseTime": "23:55",
+      "items": [
+        { "shortDescription": "Movie Ticket", "price": "12.50" },
+        { "shortDescription": "Large Popcorn", "price": "8.99" },
+        { "shortDescription": "Large Soda", "price": "5.99" }
+      ],
+      "total": "27.48"
+    },
+    "expectedPoints": 25
   }
 ]
