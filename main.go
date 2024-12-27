@@ -85,7 +85,7 @@ func calculatePoints(receipt Receipt) int {
 
 	// Rule 2: 50 points if the total is a round dollar amount with no cents
 	total, _ := strconv.ParseFloat(receipt.Total, 64)
-	if total == float64(int(total)) {
+	if total == math.Floor(total) {
 		totalPoints += 50
 	}
 
@@ -116,11 +116,6 @@ func calculatePoints(receipt Receipt) int {
 	purchaseTime, _ := time.Parse("15:04", receipt.PurchaseTime)
 	if purchaseTime.Hour() >= 14 && purchaseTime.Hour() < 16 {
 		totalPoints += 10
-	}
-
-	// Rule 8: 5 points if the total is greater than 10.00
-	if total > 10.00 {
-		totalPoints += 5
 	}
 
 	return totalPoints
